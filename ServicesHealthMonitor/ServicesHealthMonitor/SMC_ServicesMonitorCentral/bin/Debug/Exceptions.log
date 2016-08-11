@@ -1713,3 +1713,5183 @@ Inner exception:
 	no InnerException object 
 ==========================================================================================
 
+
+==========================================================================================
+2016.8.11 | 13:4:32:620
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:4:32:830
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:4:43:484
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:4:43:643
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:4:50:975
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:5:0:847
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:5:0:860
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:5:1:21
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:5:1:52
+Message:
+	WebExtreme.Configuration: SaveToAppConfig() threw an exception: 
+
+Source:
+	WebExtreme.Configuration
+
+Stack trace:
+   at WebExtreme.Configuration.ConfigAdapter.SaveToAppConfig(String key, String newValue)
+	   at SMC_ServicesMonitorCentral.Smc.checkBoxTimerEnable_CheckedChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1244
+
+Inner exception:
+	The process cannot access the file 'C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Greg was here.exe.Config' because it is being used by another process.
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:5:1:147
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:20:56:702
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:21:16:532
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:21:16:694
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:21:44:984
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:21:52:54
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:21:52:213
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:25:22:255
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 13:27:4:43
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:28:19:973
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:28:20:128
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:28:22:131
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:28:49:899
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:28:50:48
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:28:59:124
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:325
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:479
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:504
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:532
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:548
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:567
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:593
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:616
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:636
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:659
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:682
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:703
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:749
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:772
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:793
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:810
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:829
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:854
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:874
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:899
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:926
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:958
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:4:982
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:3
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:25
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:52
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:79
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:100
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:146
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:170
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:208
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:232
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:259
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:281
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:310
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:336
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:369
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:394
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:422
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:451
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:478
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:509
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:547
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:580
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:606
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:641
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:671
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:725
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:758
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:786
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:830
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:862
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:894
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:928
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:5:954
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:6
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:42
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:78
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:123
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:159
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:189
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:235
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:272
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:331
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:361
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:415
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:456
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:509
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:559
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:595
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:642
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:678
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:717
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:752
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:801
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:837
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:889
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:930
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:6:967
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:36
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:83
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:124
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:183
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:268
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:318
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:366
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:421
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:459
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:498
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:597
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:630
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:695
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:728
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:774
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:812
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:859
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:906
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:7:994
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:49
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:125
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:198
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:236
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:289
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:343
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:402
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:450
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:514
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:556
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:611
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:663
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:707
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:764
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:825
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:877
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:954
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:8:996
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:53
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:99
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:158
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:207
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:266
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:321
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:388
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:431
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:494
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:542
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:599
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:648
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:699
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:755
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:846
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:896
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:9:970
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:19
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:87
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:143
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:193
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:252
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:296
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:351
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:405
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:480
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:531
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:595
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:655
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:704
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:774
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:837
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:886
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:938
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:10:991
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:33
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:75
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:158
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:238
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:306
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:358
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:429
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:496
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:560
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:615
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:693
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:743
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:802
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:866
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:929
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:11:989
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:61
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:127
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:180
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:255
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:339
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:395
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:458
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:531
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:580
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:641
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:705
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:763
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:822
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:893
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:12:950
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:40
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:152
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:214
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:291
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:367
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:446
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:515
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:561
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:637
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:715
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:762
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:831
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:13:927
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:1
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:80
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:148
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:226
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:314
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:396
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:454
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:536
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:611
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:694
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:776
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:847
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:920
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:14:990
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:71
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:147
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:230
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:296
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:392
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:473
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:547
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:649
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:740
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:819
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:910
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:15:981
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:63
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:150
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:247
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:328
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:412
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:476
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:554
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:638
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:726
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:814
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:880
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:16:949
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:60
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:145
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:211
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:312
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:372
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:449
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:523
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:615
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:17:709
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:23:495
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:23:651
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:32:26:750
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:40:43:482
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:40:43:644
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:42:14:221
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:42:14:402
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:42:18:639
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:42:35:809
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:42:35:960
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:42:46:82
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:43:1:778
+Message:
+	Requested registry access is not allowed.
+
+Source:
+	mscorlib
+
+Stack trace:
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+	   at System.Diagnostics.EventLog.GetLogRegKey(String currentMachineName, Boolean writable)
+	   at System.Diagnostics.EventLog.get_LogDisplayName()
+	   at SMC_ServicesMonitorCentral.EventViewer.LoadEventLog(Boolean refreshEvents) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 71
+	   at SMC_ServicesMonitorCentral.EventViewer.machine_txtbox_TextChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 174
+	   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+	   at System.Windows.Forms.Control.set_Text(String value)
+	   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+	   at System.Windows.Forms.TextBox.set_Text(String value)
+	   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:43:11:704
+Message:
+	Requested registry access is not allowed.
+
+Source:
+	mscorlib
+
+Stack trace:
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+	   at System.Diagnostics.EventLog.GetLogRegKey(String currentMachineName, Boolean writable)
+	   at System.Diagnostics.EventLog.get_LogDisplayName()
+	   at SMC_ServicesMonitorCentral.EventViewer.LoadEventLog(Boolean refreshEvents) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 71
+	   at SMC_ServicesMonitorCentral.EventViewer.machine_txtbox_TextChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 174
+	   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+	   at System.Windows.Forms.Control.set_Text(String value)
+	   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+	   at System.Windows.Forms.TextBox.set_Text(String value)
+	   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:43:15:645
+Message:
+	Requested registry access is not allowed.
+
+Source:
+	mscorlib
+
+Stack trace:
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+	   at System.Diagnostics.EventLog.GetLogRegKey(String currentMachineName, Boolean writable)
+	   at System.Diagnostics.EventLog.get_LogDisplayName()
+	   at SMC_ServicesMonitorCentral.EventViewer.LoadEventLog(Boolean refreshEvents) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 71
+	   at SMC_ServicesMonitorCentral.EventViewer.machine_txtbox_TextChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 174
+	   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+	   at System.Windows.Forms.Control.set_Text(String value)
+	   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+	   at System.Windows.Forms.TextBox.set_Text(String value)
+	   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:43:18:709
+Message:
+	Requested registry access is not allowed.
+
+Source:
+	mscorlib
+
+Stack trace:
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+	   at System.Diagnostics.EventLog.GetLogRegKey(String currentMachineName, Boolean writable)
+	   at System.Diagnostics.EventLog.get_LogDisplayName()
+	   at SMC_ServicesMonitorCentral.EventViewer.LoadEventLog(Boolean refreshEvents) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 71
+	   at SMC_ServicesMonitorCentral.EventViewer.machine_txtbox_TextChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 174
+	   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+	   at System.Windows.Forms.Control.set_Text(String value)
+	   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+	   at System.Windows.Forms.TextBox.set_Text(String value)
+	   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:43:39:918
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:45:56:313
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:45:56:489
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:46:4:707
+Message:
+	Object reference not set to an instance of an object.
+
+Source:
+	Greg was here
+
+Stack trace:
+   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:46:6:180
+Message:
+	Object reference not set to an instance of an object.
+
+Source:
+	Greg was here
+
+Stack trace:
+   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:46:7:650
+Message:
+	Object reference not set to an instance of an object.
+
+Source:
+	Greg was here
+
+Stack trace:
+   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:46:8:629
+Message:
+	Object reference not set to an instance of an object.
+
+Source:
+	Greg was here
+
+Stack trace:
+   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:46:9:104
+Message:
+	Object reference not set to an instance of an object.
+
+Source:
+	Greg was here
+
+Stack trace:
+   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 51
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:48:33:501
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:48:33:649
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:49:26:455
+Message:
+	Requested registry access is not allowed.
+
+Source:
+	mscorlib
+
+Stack trace:
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+	   at System.Diagnostics.EventLog.GetLogRegKey(String currentMachineName, Boolean writable)
+	   at System.Diagnostics.EventLog.get_LogDisplayName()
+	   at SMC_ServicesMonitorCentral.EventViewer.LoadEventLog(Boolean refreshEvents) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 75
+	   at SMC_ServicesMonitorCentral.EventViewer.machine_txtbox_TextChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 182
+	   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+	   at System.Windows.Forms.Control.set_Text(String value)
+	   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+	   at System.Windows.Forms.TextBox.set_Text(String value)
+	   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 52
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:50:20:743
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:50:20:943
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:51:1:538
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:51:1:697
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:51:18:860
+Message:
+	Requested registry access is not allowed.
+
+Source:
+	mscorlib
+
+Stack trace:
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+	   at System.Diagnostics.EventLog.GetLogRegKey(String currentMachineName, Boolean writable)
+	   at System.Diagnostics.EventLog.get_LogDisplayName()
+	   at SMC_ServicesMonitorCentral.EventViewer.LoadEventLog(Boolean refreshEvents) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 73
+	   at SMC_ServicesMonitorCentral.EventViewer.machine_txtbox_TextChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 180
+	   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+	   at System.Windows.Forms.Control.set_Text(String value)
+	   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+	   at System.Windows.Forms.TextBox.set_Text(String value)
+	   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 54
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:51:56:752
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:51:56:926
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:52:26:564
+Message:
+	Requested registry access is not allowed.
+
+Source:
+	mscorlib
+
+Stack trace:
+   at Microsoft.Win32.RegistryKey.OpenSubKey(String name, Boolean writable)
+	   at System.Diagnostics.EventLog.GetLogRegKey(String currentMachineName, Boolean writable)
+	   at System.Diagnostics.EventLog.get_LogDisplayName()
+	   at SMC_ServicesMonitorCentral.EventViewer.LoadEventLog(Boolean refreshEvents) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 73
+	   at SMC_ServicesMonitorCentral.EventViewer.machine_txtbox_TextChanged(Object sender, EventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 180
+	   at System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+	   at System.Windows.Forms.Control.set_Text(String value)
+	   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+	   at System.Windows.Forms.TextBox.set_Text(String value)
+	   at SMC_ServicesMonitorCentral.EventViewer..ctor(String machineName, IEnumerable`1 serviceNames, Form parent) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\EventViewer.cs:line 54
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1099
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:52:26:852
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:52:56:713
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:52:56:890
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:53:25:717
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:54:33:764
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:54:33:937
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:54:46:64
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:55:10:899
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:55:11:95
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:57:50:207
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:57:50:349
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 15:58:0:388
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 16:58:22:806
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 16:58:22:953
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 16:58:33:1
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 17:0:6:389
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 17:0:6:540
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 17:0:16:563
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 17:0:38:88
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+

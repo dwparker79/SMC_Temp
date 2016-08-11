@@ -81,7 +81,6 @@
             this.machine_txtbox.Name = "machine_txtbox";
             this.machine_txtbox.Size = new System.Drawing.Size(120, 26);
             this.machine_txtbox.TabIndex = 4;
-            this.machine_txtbox.TextChanged += new System.EventHandler(this.machine_txtbox_TextChanged);
             // 
             // services_lbl
             // 

@@ -178,11 +178,10 @@ namespace SMC_ServicesMonitorCentral
                     "<p>Network Security Services</p>\n" +
                     "<br/>\n" +
                     "<h5>This message was automatically generated " + 
-                        message.TimeOccurred.ToString("at hh:mm:ss tt on MM/d/yyy") + ".</h6>\n" +
+                        message.TimeOccurred.ToString("at hh:mm:ss tt on MM/d/yyy") + ".</h5>\n" +
                     "<h5>Please do not reply to this email.</h5>\n" +
                     "</html>";
-
-                int tempI = i;
+                
                 mailer.SendAsync(newMsg, recipientTokens[i]);
                 //newMsg.Dispose();
             }

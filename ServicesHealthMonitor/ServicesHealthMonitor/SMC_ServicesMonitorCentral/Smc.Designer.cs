@@ -65,7 +65,7 @@ namespace SMC_ServicesMonitorCentral
             this.Status = new System.Windows.Forms.DataGridViewImageColumn();
             this.EmailNotification = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridView1 = new SMC_ServicesMonitorCentral.UserControl1();
-            this.ServiceNam = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ServiceName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ServiceStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ServiceStatusImage = new System.Windows.Forms.DataGridViewImageColumn();
             this.Start = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -416,7 +416,7 @@ namespace SMC_ServicesMonitorCentral
             this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ServiceNam,
+            this.ServiceName,
             this.ServiceStatus,
             this.ServiceStatusImage,
             this.Start,
@@ -442,12 +442,12 @@ namespace SMC_ServicesMonitorCentral
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
-            // ServiceNam
+            // ServiceName
             // 
-            this.ServiceNam.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.ServiceNam.HeaderText = "service name";
-            this.ServiceNam.Name = "ServiceName";
-            this.ServiceNam.ReadOnly = true;
+            this.ServiceName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ServiceName.HeaderText = "service name";
+            this.ServiceName.Name = "ServiceName";
+            this.ServiceName.ReadOnly = true;
             // 
             // ServiceStatus
             // 
@@ -509,6 +509,7 @@ namespace SMC_ServicesMonitorCentral
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Smc_FormClosing);
             this.Load += new System.EventHandler(this.Smc_Load);
             this.ResizeEnd += new System.EventHandler(this.Smc_ResizeEnd);
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Smc_Paint);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
@@ -554,6 +555,7 @@ namespace SMC_ServicesMonitorCentral
         private System.Windows.Forms.DataGridViewImageColumn ServiceStatusImage;
         private System.Windows.Forms.DataGridViewButtonColumn Start;
         private System.Windows.Forms.DataGridViewButtonColumn Stop;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ServiceName;
     }
 }
 

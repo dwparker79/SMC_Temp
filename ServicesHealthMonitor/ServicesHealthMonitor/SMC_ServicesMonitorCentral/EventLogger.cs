@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Collections.Generic;
+using System.Security.Principal;
 using System.Text;
 
 namespace SMC_ServicesMonitorCentral
@@ -22,14 +23,34 @@ namespace SMC_ServicesMonitorCentral
     {
         private static string source;
         private static int nextID = 1;
+        private static bool hasAccess;
+        public static bool CanWrite
+        {
+            get
+            {
+                return hasAccess;
+            }
+        }
+
         public static void SetLogInfo(string sourceName, string machineName)
         {
+            // check for administrator access
+            {
+                WindowsPrincipal wp = new WindowsPrincipal(WindowsIdentity.GetCurrent());
+                hasAccess = wp.IsInRole(WindowsBuiltInRole.Administrator);
+            }
+            if (!hasAccess)
+                return;
+
             source = sourceName;
             if (!EventLog.SourceExists(sourceName))
                 EventLog.CreateEventSource(new EventSourceCreationData(sourceName, "Application"));
         }
         public static void Log(EventLoggerThreadType threadType, EventLoggerCode eventCode, string eventInfo)
         {
+            if (!hasAccess)
+                return;
+
             string msg = (threadType == EventLoggerThreadType.Async ? "RECOV0" : "NON0") +
                 ((int)eventCode).ToString();
             EventLogEntryType type;

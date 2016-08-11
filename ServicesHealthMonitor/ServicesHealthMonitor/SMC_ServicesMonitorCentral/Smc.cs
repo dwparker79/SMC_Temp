@@ -64,7 +64,6 @@ namespace SMC_ServicesMonitorCentral
         {
             try
             {
-                EventLogger.SetLogInfo(SourceName, Environment.MachineName);
                 InitializeComponent();
 
                 timer1.Tick += new EventHandler(timer1_Tick);
@@ -81,6 +80,9 @@ namespace SMC_ServicesMonitorCentral
                 cross = new Bitmap("Resources/cross.ico");
 
                 auto = Convert.ToBoolean(ConfigurationSettings.AppSettings["autoRestartMonitoredServices"]);
+
+                EventLogger.SetLogInfo(SourceName, Environment.MachineName);
+                
                 Log(false, EventLoggerCode.Successful_Process, "Smc() [Constructor] ", new Exception("SMC constructed successfully."));
             }
             catch (Exception ex)
@@ -223,8 +225,7 @@ namespace SMC_ServicesMonitorCentral
             }
         }
         #endregion 
-
-
+        
 
         #region [ FillGrid2 ]
         private void FillGrid2()
@@ -1207,8 +1208,7 @@ namespace SMC_ServicesMonitorCentral
                 eviewer.Close();
         }
         #endregion 
-
-
+        
 
         #region [ layout related ]
 
@@ -1248,6 +1248,25 @@ namespace SMC_ServicesMonitorCentral
                 Log(true, EventLoggerCode.General_Failure, "checkBoxTimerEnable_CheckedChanged", ex);
             }
            
+        }
+
+        private bool isWarningShown = false;
+        private bool isIteration1 = true;
+        private void Smc_Paint(object sender, PaintEventArgs e)
+        {
+            if (!isIteration1)
+                return;
+            isIteration1 = false;
+            InvokePaint(this, e);
+
+            if (!isWarningShown && !EventLogger.CanWrite)
+            {
+                isWarningShown = true;
+                MessageBox.Show("Logging is disabled.\nTo enable logging, restart the application in administrator mode.",
+                    "LOGGING DISABLED", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+            isIteration1 = false;
         }
 
         #endregion

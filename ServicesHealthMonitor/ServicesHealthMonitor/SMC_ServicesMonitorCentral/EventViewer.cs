@@ -49,7 +49,6 @@ namespace SMC_ServicesMonitorCentral
 
             InitializeComponent();
             machine_txtbox.Text = machineName;
-
             this.parent = parent;
         }
         #endregion
@@ -62,16 +61,36 @@ namespace SMC_ServicesMonitorCentral
             Cursor tempC = Cursor;
             Cursor = Cursors.WaitCursor;
 
+            if (machine_txtbox.Text == "")
+            {
+                MessageBox.Show("Machine name cannot be blank.", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                machine_txtbox.Focus();
+                Cursor = tempC;
+                return;
+            }
             if (refreshEvents)
             {
                 events.Clear();
-                EventLog[] newEvents = EventLog.GetEventLogs(machine_txtbox.Text);
+                EventLog[] newEvents = null;
+                try
+                {
+                    newEvents = EventLog.GetEventLogs(machine_txtbox.Text);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("The machine cannot be found.  Please enter a different name.",
+                        "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    if (machine_txtbox.Focus())
+                        machine_txtbox.SelectAll();
+                    Cursor = tempC;
+                    return;
+                }
                 foreach (EventLog el in newEvents)
                 {
-                    if (el.LogDisplayName != "Application")
-                        continue;
                     try
                     {
+                        if (el.LogDisplayName != "Application")
+                            continue;
                         foreach (EventLogEntry elentry in el.Entries)
                         {
                             try
@@ -106,6 +125,8 @@ namespace SMC_ServicesMonitorCentral
                 Show();
             Cursor = tempC;
         }
+
+        #region [ Add or Remove services ]
 
         public void AddService(string newService)
         {
@@ -159,17 +180,14 @@ namespace SMC_ServicesMonitorCentral
             }
         }
 
+        #endregion
+
         private void EventViewer_Load(object sender, EventArgs e)
         {
             LoadEventLog();
         }
 
         private void Refresh_btn_Click(object sender, EventArgs e)
-        {
-            LoadEventLog();
-        }
-
-        private void machine_txtbox_TextChanged(object sender, EventArgs e)
         {
             LoadEventLog();
         }
