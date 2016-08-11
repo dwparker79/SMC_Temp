@@ -1,0 +1,1715 @@
+
+==========================================================================================
+2016.8.3 | 13:42:34:682
+Message:
+	Cannot open ActivIdentity Shared Store Service service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 949
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:42:36:734
+Message:
+	Cannot open ActivIdentity Shared Store Service service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Stop()
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 955
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:42:54:195
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 949
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:42:58:504
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Stop()
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 955
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:43:5:645
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:43:6:982
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:9:270
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:9:734
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+	   at System.Collections.Generic.List`1.RemoveAt(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellDoubleClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1055
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:9:905
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:25:865
+Message:
+	Cannot open ActivIdentity Shared Store Service service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Stop()
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 955
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:36:776
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:40:24
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:40:83
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:55:589
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:57:56
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:57:67
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:7:32
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:17:33
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:27:46
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:37:59
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:47:61
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:57:75
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:46:7:77
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:46:7:109
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:46:37:108
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 14:1:34:244
+Message:
+	The operation was canceled by the user
+
+Source:
+	System
+
+Stack trace:
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1040
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 14:1:34:259
+Message:
+	The operation was canceled by the user
+
+Source:
+	System
+
+Stack trace:
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1040
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:2:16:981
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:2:30:559
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:7:35:490
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:15:54:904
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:15:55:67
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:18:9:729
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:18:9:865
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:23:58:146
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:23:58:330
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:25:24:860
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 14:25:25:34
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 16:37:55:78
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 16:37:55:223
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.9 | 16:38:7:346
+Message:
+	The SMTP host was not specified.
+
+Source:
+	System
+
+Stack trace:
+   at System.Net.Mail.SmtpClient.CheckHostAndPort()
+	   at System.Net.Mail.SmtpClient.SendAsync(MailMessage message, Object userToken)
+	   at SMC_ServicesMonitorCentral.SmcNotifier.Notify(SmcNotification message, MailAddress[] addresses) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\SmcNotifier.cs:line 91
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 400
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:4:9:11
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:4:9:167
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:5:10:737
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:30:34:422
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:30:34:559
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:30:55:779
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:31:55:36
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:31:55:173
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:32:5:190
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:32:34:146
+Message:
+	Column named 1 cannot be found.
+	Parameter name: columnName
+
+Source:
+	System.Windows.Forms
+
+Stack trace:
+   at System.Windows.Forms.DataGridViewCellCollection.get_Item(String columnName)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView3_CellContentClick_1(Object sender, DataGridViewCellEventArgs e) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 1161
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:32:41:744
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:33:25:951
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:33:26:74
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:33:56:113
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:41:31:462
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:41:31:624
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:42:1:605
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:57:55:20
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:57:55:167
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 9:58:15:231
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 10:0:54:242
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 10:0:54:382
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 10:1:4:587
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 10:48:48:642
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 10:48:48:775
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 10:48:58:784
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 10:51:10:217
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 11:44:2:202
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 11:44:2:372
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 11:44:27:54
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 11:46:9:994
+Message:
+	An asynchronous call is already in progress. It must be completed or canceled before you can call this method.
+
+Source:
+	System
+
+Stack trace:
+   at System.Net.Mail.SmtpClient.SendAsync(MailMessage message, Object userToken)
+	   at SMC_ServicesMonitorCentral.SmcNotifier.Notify(SmcNotification message, MailAddress[] addresses) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\SmcNotifier.cs:line 128
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 398
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 12:59:56:647
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 12:59:56:796
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:0:20:247
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:6:49:581
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:6:49:745
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:7:8:749
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:8:45:429
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:8:45:614
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:9:8:4
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:10:9:673
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:34:12:761
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:34:12:967
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.10 | 13:37:16:840
+Message:
+	The SMTP host was not found.
+
+Source:
+	System
+
+Stack trace:
+   at System.Net.Mail.SmtpTransport.BeginGetConnection(String host, Int32 port, ContextAwareResult outerResult, AsyncCallback callback, Object state)
+	   at System.Net.Mail.SmtpClient.SendAsync(MailMessage message, Object userToken)
+	   at SMC_ServicesMonitorCentral.SmcNotifier.Notify(SmcNotification message, MailAddress[] addresses) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\SmcNotifier.cs:line 147
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\Smc.cs:line 398
+
+Inner exception:
+	The remote name could not be resolved: 'smtp.gmail.com'
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:21:41:730
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:21:41:915
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:21:48:70
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:28:58:277
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:28:58:422
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:29:3:38
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:33:30:992
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:33:31:120
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 9:33:38:107
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:29:52:866
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:29:53:161
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:29:54:897
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:51:40:190
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:51:40:315
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:51:55:670
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:52:51:294
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:52:51:440
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.11 | 10:53:27:462
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
