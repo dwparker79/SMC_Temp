@@ -6893,3 +6893,67 @@ Inner exception:
 	no InnerException object 
 ==========================================================================================
 
+
+==========================================================================================
+2016.8.12 | 8:50:40:172
+Message:
+	SMC constructed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.12 | 8:50:40:321
+Message:
+	SMC loaded successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.12 | 8:50:50:359
+Message:
+	Notification sent due to AdobeFlashPlayerUpdateSvc stopping.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.12 | 8:51:24:424
+Message:
+	SMC closed successfully.
+
+Source:
+	no source for Exception object
+
+Stack trace:
+no StackTrace for Exeption object
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+

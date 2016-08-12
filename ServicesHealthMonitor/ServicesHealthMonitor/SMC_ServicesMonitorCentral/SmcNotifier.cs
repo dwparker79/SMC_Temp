@@ -118,6 +118,8 @@ namespace SMC_ServicesMonitorCentral
             sending = false;
         }
 
+        // yes, the name has a double meaning.  Not intentional.
+        private static System.Text.StringBuilder bodyBuilder;
         public static void Notify(SmcNotification message, MailAddress[] addresses)
         {
             MailAddress fromAddr = new MailAddress("dwparker79@gmail.com");
@@ -156,31 +158,42 @@ namespace SMC_ServicesMonitorCentral
             {
                 recipientTokens[i] = addresses[i].Address;
 
+                bodyBuilder = new System.Text.StringBuilder();
+                bodyBuilder.Append("<html>\n");
+                bodyBuilder.Append("<h3>Service Health Monitor Notification</h3>\n");
+                bodyBuilder.Append("<p>");
+                  bodyBuilder.Append(statusLine);
+                  bodyBuilder.Append("\n");
+                bodyBuilder.Append("<b>");
+                  bodyBuilder.Append(nameLine);
+                  bodyBuilder.Append("</b></p><br/>\n");
+                bodyBuilder.Append("<table>\n");
+                bodyBuilder.Append(" <tr>\n");
+                bodyBuilder.Append("  <td>Issue:</td>\n");
+                bodyBuilder.Append("  <td>");
+                  bodyBuilder.Append(issueLine);
+                  bodyBuilder.Append("</td>\n");
+                bodyBuilder.Append(" </tr>\n");
+                bodyBuilder.Append(" <tr>\n");
+                bodyBuilder.Append("  <td>Recommendation:</td>\n");
+                bodyBuilder.Append("  <td>");
+                  bodyBuilder.Append(recommendationsLine);
+                  bodyBuilder.Append("</td>\n");
+                bodyBuilder.Append(" </tr>\n");
+                bodyBuilder.Append("</table><br/>\n");
+                bodyBuilder.Append("<p>Thanks,</p>\n");
+                bodyBuilder.Append("<p>Network Security Services</p>\n");
+                bodyBuilder.Append("<br/>\n");
+                bodyBuilder.Append("<h5>This message was automatically generated ");
+                  bodyBuilder.Append(message.TimeOccurred.ToString("at hh:mm:ss tt on MM/d/yyy"));
+                  bodyBuilder.Append(".</h5>\n");
+                bodyBuilder.Append("<h5>Please do not reply to this email.</h5>\n");
+                bodyBuilder.Append("</html>");
+
                 newMsg = new MailMessage(fromAddr, addresses[i]);
                 newMsg.Subject = "Services Health Monitor Notification";
                 newMsg.IsBodyHtml = true;
-                newMsg.Body =
-                    "<html>\n" +
-                    "<h3>Service Health Monitor Notification</h3>\n" +
-                    "<p>" + statusLine + "\n" +
-                    "<b>" + nameLine + "</b></p><br/>\n" +
-                    "<table>\n" +
-                    " <tr>\n" +
-                    "  <td>Issue:</td>\n" +
-                    "  <td>" + issueLine + "</td>\n" +
-                    " </tr>\n" +
-                    " <tr>\n" +
-                    "  <td>Recommendation:</td>\n" +
-                    "  <td>" + recommendationsLine + "</td>\n" +
-                    " </tr>\n" +
-                    "</table><br/>\n" +
-                    "<p>Thanks,</p>\n" +
-                    "<p>Network Security Services</p>\n" +
-                    "<br/>\n" +
-                    "<h5>This message was automatically generated " + 
-                        message.TimeOccurred.ToString("at hh:mm:ss tt on MM/d/yyy") + ".</h5>\n" +
-                    "<h5>Please do not reply to this email.</h5>\n" +
-                    "</html>";
+                newMsg.Body = bodyBuilder.ToString();
                 
                 mailer.SendAsync(newMsg, recipientTokens[i]);
                 //newMsg.Dispose();
