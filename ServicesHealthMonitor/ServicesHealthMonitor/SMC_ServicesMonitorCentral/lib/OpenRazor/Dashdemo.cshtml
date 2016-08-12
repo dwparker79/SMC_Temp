@@ -1,0 +1,74 @@
+﻿@{
+
+    // var db = Database.Open("SCOPSdb");
+    // var query = "Select * FROM Email WHERE Email_ID < 2000";
+
+    string[] service =
+    {
+        "Case Ingest Service",
+        "Case Transfer Service",
+        "Mainframe Upload Service",
+        "Card Ingestion Service",
+        "Image Service",
+        "C3 Windows Image Service",
+        "Security Service",
+        "DACA Service"
+    };
+
+    string[] center = {
+        "Administrative Appeals Office",
+        "National Customer Service Center",
+        "Eastern Adjudication Center",
+        "California Service Center",
+        "Nebraska Service Center",
+        "Potomac Service Center",
+        "Texas Service Center",
+        "Vermont Service Center" };
+}
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Dashboard Beta</title>
+    <link href="~/css/uswds.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.10.3.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/js/uswds.min.js"></script>
+    <script src="~/js/bootstrap.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Service Monitor</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>App</td>                
+                    @for (int i = 0; i < center.Length; i++)
+                    {
+                        <td>@center[i]</td>
+                    }
+                </tr>
+            </thead>
+            <tbody>                
+                <tr>
+                    <td>Case Transfer Service</td>
+                    @for (int i = 0; i < center.Length; i++)
+                    {
+                        <td>100</td>
+                    }
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </div>
+</body>
+</html>

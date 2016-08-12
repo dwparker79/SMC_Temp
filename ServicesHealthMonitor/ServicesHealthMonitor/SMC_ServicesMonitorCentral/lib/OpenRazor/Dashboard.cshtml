@@ -1,0 +1,32 @@
+﻿@{
+
+    var db = Database.Open("SCOPSdb");
+    var query = "Select * FROM Email WHERE Email_ID < 2000";
+
+    string[] members = { "AAO", "CSC", "NBC", "NSC", "TSC", "EAC", "PSC" };
+    // var t1 = members[0];
+    // var t1 = "";
+}
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="~/Content/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.10.3.js"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    @foreach (var row in db.Query(query))
+    {
+        @row.Email_ID
+        <br />
+    }
+
+</body>
+</html>
