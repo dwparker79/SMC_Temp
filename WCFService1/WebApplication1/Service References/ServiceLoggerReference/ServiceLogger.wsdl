@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="ServiceLogger" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:63186/ServiceLogger.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:63186/ServiceLogger.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:63186/ServiceLogger.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IServiceLogger_GetLogs_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLogs" />
+  </wsdl:message>
+  <wsdl:message name="IServiceLogger_GetLogs_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLogsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceLogger_GetLogPage_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLogPage" />
+  </wsdl:message>
+  <wsdl:message name="IServiceLogger_GetLogPage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLogPageResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceLogger_GetNumPages_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumPages" />
+  </wsdl:message>
+  <wsdl:message name="IServiceLogger_GetNumPages_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNumPagesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IServiceLogger_WriteLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:WriteLog" />
+  </wsdl:message>
+  <wsdl:message name="IServiceLogger_WriteLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WriteLogResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServiceLogger">
+    <wsdl:operation name="GetLogs">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceLogger/GetLogs" message="tns:IServiceLogger_GetLogs_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceLogger/GetLogsResponse" message="tns:IServiceLogger_GetLogs_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLogPage">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceLogger/GetLogPage" message="tns:IServiceLogger_GetLogPage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceLogger/GetLogPageResponse" message="tns:IServiceLogger_GetLogPage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetNumPages">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceLogger/GetNumPages" message="tns:IServiceLogger_GetNumPages_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceLogger/GetNumPagesResponse" message="tns:IServiceLogger_GetNumPages_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IServiceLogger/WriteLog" message="tns:IServiceLogger_WriteLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IServiceLogger/WriteLogResponse" message="tns:IServiceLogger_WriteLog_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IServiceLogger" type="tns:IServiceLogger">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLogs">
+      <soap:operation soapAction="http://tempuri.org/IServiceLogger/GetLogs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLogPage">
+      <soap:operation soapAction="http://tempuri.org/IServiceLogger/GetLogPage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetNumPages">
+      <soap:operation soapAction="http://tempuri.org/IServiceLogger/GetNumPages" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteLog">
+      <soap:operation soapAction="http://tempuri.org/IServiceLogger/WriteLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiceLogger">
+    <wsdl:port name="BasicHttpBinding_IServiceLogger" binding="tns:BasicHttpBinding_IServiceLogger">
+      <soap:address location="http://localhost:63186/ServiceLogger.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4c704c1f-036f-4d55-bbb0-02f0e5036ab2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63186/ServiceLogger.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServiceLogger.xsd" MetadataType="Schema" ID="1f1fe57c-704d-49bf-8be8-3de59559bd9a" SourceId="1" SourceUrl="http://localhost:63186/ServiceLogger.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServiceLogger1.xsd" MetadataType="Schema" ID="162284c4-1c8d-4b9e-97ca-6b3fbf194c57" SourceId="1" SourceUrl="http://localhost:63186/ServiceLogger.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServiceLogger2.xsd" MetadataType="Schema" ID="2cda770c-2a57-41ea-99cb-2da210ae0e03" SourceId="1" SourceUrl="http://localhost:63186/ServiceLogger.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServiceLogger.wsdl" MetadataType="Wsdl" ID="7a001420-fda0-4334-9025-28d1c071d636" SourceId="1" SourceUrl="http://localhost:63186/ServiceLogger.svc?wsdl" />
+    <MetadataFile FileName="ServiceLogger.disco" MetadataType="Disco" ID="73143d23-7a13-4d9a-94f8-e9cf0393fc29" SourceId="1" SourceUrl="http://localhost:63186/ServiceLogger.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
