@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebExtreme.Security</name>
+    </assembly>
+    <members>
+        <member name="M:WebExtreme.Security.Encryption.EncryptAndSavePassToConfigurationFile(System.String)">
+            <summary>
+            Encodes a password to a configuration file (app.config). Required fields in a xml configuration file are: 
+                [add key="k1" value="(char)"]
+                [add key="kn" value="(char)"] (to n = password length)
+                [add key="length" value="(int)"]
+                [add key="key" value="(int)#(int)# ..."]
+            </summary>
+            <param name="password">the password which you would like to encode in the .config file</param>
+        </member>
+        <member name="M:WebExtreme.Security.Encryption.DecodePasswordFromConfigurationFile">
+            <summary>
+            Decodes a password from a configuration file (app.config). Required fields in a xml configuration file are: 
+                [add key="k1" value="(char)"]
+                [add key="kn" value="(char)"] (to n = password length)
+                [add key="length" value="(int)"]
+                [add key="key" value="(int)#(int)# ..."]
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:WebExtreme.Security.Processes">
+            <summary>
+            A Class for starting executable files in a secure manner using given credentials
+            </summary>
+        </member>
+        <member name="M:WebExtreme.Security.Processes.ExecuteWithCredentials(System.String,System.String,System.String)">
+            <summary>
+            Starts an executable with the given credentials.
+            </summary>
+            <param name="user">login</param>
+            <param name="pass">password for the login</param>
+            <param name="executablePath">path of the executable</param>
+        </member>
+    </members>
+</doc>

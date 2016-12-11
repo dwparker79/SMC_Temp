@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebExtreme.Logging</name>
+    </assembly>
+    <members>
+        <member name="T:WebExtreme.Logging.Logger">
+            <summary>
+            Provides logging and email-sending capabilities
+            </summary>
+        </member>
+        <member name="M:WebExtreme.Logging.Logger.SendEmail(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Sends an email
+            </summary>
+            <param name="from">the sender email address</param>
+            <param name="to">the email address to send message to</param>
+            <param name="messageText">mail message body</param>
+            <param name="subject">mail message subject</param>
+            <param name="smtp">your smtp server</param>
+            <returns>bool</returns>
+        </member>
+        <member name="M:WebExtreme.Logging.Logger.SendErrorHMTLMail(System.String,System.Exception)">
+            <summary>
+            sends a HTML email; use 'enableLogging' keyword switch either in Web.config or app.config file
+            </summary>
+            <param name="from">the sender email address</param>
+            <param name="to">the email address to send message to</param>
+            <param name="excMethod">the method where the exception occured</param>
+            <param name="excSource">Exception.Source</param>
+            <param name="messageHeader">the header of the HTML page that has been generated</param>
+            <param name="excStackTrace">Exception.StackTrace</param>
+            <param name="excMessage">Exception.Message</param>
+            <param name="subject">message subject (error description)</param>
+            <param name="smtp">your smtp server</param>
+            <returns>Boolean</returns>
+        </member>
+        <member name="M:WebExtreme.Logging.Logger.LogToFile(System.Exception)">
+            <summary>
+            Logs an exception to a 'Exceptions.log' file in the base directory
+            </summary>
+            <param name="ex">Exception</param>
+        </member>
+    </members>
+</doc>

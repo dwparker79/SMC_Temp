@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebExtreme.UserManagement</name>
+    </assembly>
+    <members>
+        <member name="M:WebExtreme.UserManagement.UserManager.IsMemberOf(System.String,System.String)">
+            <summary>
+            checks if the users belongs to a given group in active directory
+            </summary>
+            <param name="login">login of the user</param>
+            <param name="group">the group for membership lookup</param>
+            <returns>bool</returns>       
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WebExtreme.UserManagement.UserManager.GetGroups(System.String)" -->
+        <member name="M:WebExtreme.UserManagement.UserManager.IsAuthenticated(System.String,System.String)">
+            <summary>
+            Authenticates a user against active directory and returns true or false for a given user/password.
+            </summary>
+            <param name="user">login</param>
+            <param name="password">password for the login</param>
+            <returns>Boolean</returns>
+        </member>
+    </members>
+</doc>

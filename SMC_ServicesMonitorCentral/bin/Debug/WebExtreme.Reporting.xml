@@ -1,0 +1,2846 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebExtreme.Reporting</name>
+    </assembly>
+    <members>
+        <member name="T:WebExtreme.Reporting.Report">
+            <summary>
+            Class for generating reports
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:WebExtreme.Reporting.Report.OutputReportAsByteArray(System.String,System.String,System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})" -->
+        <member name="T:WebExtreme.Reporting.ReportService.ReportingService">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.#ctor">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSecureMethods">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSecureMethodsAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSecureMethodsAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateBatch">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateBatchAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateBatchAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CancelBatch">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CancelBatchAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CancelBatchAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ExecuteBatch">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ExecuteBatchAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ExecuteBatchAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemProperties(WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPropertiesAsync(WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPropertiesAsync(WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSystemProperties(WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSystemPropertiesAsync(WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSystemPropertiesAsync(WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteItem(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteItemAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteItemAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.MoveItem(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.MoveItemAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.MoveItemAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListChildren(System.String,System.Boolean)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListChildrenAsync(System.String,System.Boolean)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListChildrenAsync(System.String,System.Boolean,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetProperties(System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetProperties(System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetItemType(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetItemTypeAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetItemTypeAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateFolder(System.String,System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateFolderAsync(System.String,System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateFolderAsync(System.String,System.String,WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateReport(System.String,System.String,System.Boolean,System.Byte[],WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateReportAsync(System.String,System.String,System.Boolean,System.Byte[],WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateReportAsync(System.String,System.String,System.Boolean,System.Byte[],WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDefinition(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDefinitionAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDefinitionAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportDefinition(System.String,System.Byte[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportDefinitionAsync(System.String,System.Byte[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportDefinitionAsync(System.String,System.Byte[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateResource(System.String,System.String,System.Boolean,System.Byte[],System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateResourceAsync(System.String,System.String,System.Boolean,System.Byte[],System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateResourceAsync(System.String,System.String,System.Boolean,System.Byte[],System.String,WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetResourceContents(System.String,System.Byte[],System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetResourceContentsAsync(System.String,System.Byte[],System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetResourceContentsAsync(System.String,System.Byte[],System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetResourceContents(System.String,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetResourceContentsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetResourceContentsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportParameters(System.String,System.String,System.Boolean,WebExtreme.Reporting.ReportService.ParameterValue[],WebExtreme.Reporting.ReportService.DataSourceCredentials[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportParametersAsync(System.String,System.String,System.Boolean,WebExtreme.Reporting.ReportService.ParameterValue[],WebExtreme.Reporting.ReportService.DataSourceCredentials[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportParametersAsync(System.String,System.String,System.Boolean,WebExtreme.Reporting.ReportService.ParameterValue[],WebExtreme.Reporting.ReportService.DataSourceCredentials[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportParameters(System.String,WebExtreme.Reporting.ReportService.ReportParameter[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportParametersAsync(System.String,WebExtreme.Reporting.ReportService.ReportParameter[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportParametersAsync(System.String,WebExtreme.Reporting.ReportService.ReportParameter[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateLinkedReport(System.String,System.String,System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateLinkedReportAsync(System.String,System.String,System.String,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateLinkedReportAsync(System.String,System.String,System.String,WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportLink(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportLinkAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportLinkAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportLink(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportLinkAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportLinkAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListLinkedReports(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListLinkedReportsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListLinkedReportsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.Render(System.String,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[],WebExtreme.Reporting.ReportService.DataSourceCredentials[],System.String,System.String@,System.String@,WebExtreme.Reporting.ReportService.ParameterValue[]@,WebExtreme.Reporting.ReportService.Warning[]@,System.String[]@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.RenderAsync(System.String,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[],WebExtreme.Reporting.ReportService.DataSourceCredentials[],System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.RenderAsync(System.String,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[],WebExtreme.Reporting.ReportService.DataSourceCredentials[],System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.RenderStream(System.String,System.String,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[],System.String@,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.RenderStreamAsync(System.String,System.String,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.RenderStreamAsync(System.String,System.String,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetRenderResource(System.String,System.String,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetRenderResourceAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetRenderResourceAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetExecutionOptions(System.String,WebExtreme.Reporting.ReportService.ExecutionSettingEnum,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetExecutionOptionsAsync(System.String,WebExtreme.Reporting.ReportService.ExecutionSettingEnum,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetExecutionOptionsAsync(System.String,WebExtreme.Reporting.ReportService.ExecutionSettingEnum,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetExecutionOptions(System.String,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetExecutionOptionsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetExecutionOptionsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetCacheOptions(System.String,System.Boolean,WebExtreme.Reporting.ReportService.ExpirationDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetCacheOptionsAsync(System.String,System.Boolean,WebExtreme.Reporting.ReportService.ExpirationDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetCacheOptionsAsync(System.String,System.Boolean,WebExtreme.Reporting.ReportService.ExpirationDefinition,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetCacheOptions(System.String,WebExtreme.Reporting.ReportService.ExpirationDefinition@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetCacheOptionsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetCacheOptionsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.UpdateReportExecutionSnapshot(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.UpdateReportExecutionSnapshotAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.UpdateReportExecutionSnapshotAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FlushCache(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FlushCacheAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FlushCacheAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListJobs">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListJobsAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListJobsAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CancelJob(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CancelJobAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CancelJobAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateDataSource(System.String,System.String,System.Boolean,WebExtreme.Reporting.ReportService.DataSourceDefinition,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateDataSourceAsync(System.String,System.String,System.Boolean,WebExtreme.Reporting.ReportService.DataSourceDefinition,WebExtreme.Reporting.ReportService.Property[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateDataSourceAsync(System.String,System.String,System.Boolean,WebExtreme.Reporting.ReportService.DataSourceDefinition,WebExtreme.Reporting.ReportService.Property[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetDataSourceContents(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetDataSourceContentsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetDataSourceContentsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetDataSourceContents(System.String,WebExtreme.Reporting.ReportService.DataSourceDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetDataSourceContentsAsync(System.String,WebExtreme.Reporting.ReportService.DataSourceDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetDataSourceContentsAsync(System.String,WebExtreme.Reporting.ReportService.DataSourceDefinition,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.EnableDataSource(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.EnableDataSourceAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.EnableDataSourceAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DisableDataSource(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DisableDataSourceAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DisableDataSourceAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListReportsUsingDataSource(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListReportsUsingDataSourceAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListReportsUsingDataSourceAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportDataSources(System.String,WebExtreme.Reporting.ReportService.DataSource[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportDataSourcesAsync(System.String,WebExtreme.Reporting.ReportService.DataSource[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportDataSourcesAsync(System.String,WebExtreme.Reporting.ReportService.DataSource[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSources(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSourcesAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSourcesAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSourcePrompts(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSourcePromptsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSourcePromptsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateReportHistorySnapshot(System.String,WebExtreme.Reporting.ReportService.Warning[]@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateReportHistorySnapshotAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateReportHistorySnapshotAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryOptions(System.String,System.Boolean,System.Boolean,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryOptionsAsync(System.String,System.Boolean,System.Boolean,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryOptionsAsync(System.String,System.Boolean,System.Boolean,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryOptions(System.String,System.Boolean@,WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryOptionsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryOptionsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryLimit(System.String,System.Boolean,System.Int32)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryLimitAsync(System.String,System.Boolean,System.Int32)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryLimitAsync(System.String,System.Boolean,System.Int32,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryLimit(System.String,System.Boolean@,System.Int32@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryLimitAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryLimitAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListReportHistory(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListReportHistoryAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListReportHistoryAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteReportHistorySnapshot(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteReportHistorySnapshotAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteReportHistorySnapshotAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FindItems(System.String,WebExtreme.Reporting.ReportService.BooleanOperatorEnum,WebExtreme.Reporting.ReportService.SearchCondition[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FindItemsAsync(System.String,WebExtreme.Reporting.ReportService.BooleanOperatorEnum,WebExtreme.Reporting.ReportService.SearchCondition[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FindItemsAsync(System.String,WebExtreme.Reporting.ReportService.BooleanOperatorEnum,WebExtreme.Reporting.ReportService.SearchCondition[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateSchedule(System.String,WebExtreme.Reporting.ReportService.ScheduleDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateScheduleAsync(System.String,WebExtreme.Reporting.ReportService.ScheduleDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateScheduleAsync(System.String,WebExtreme.Reporting.ReportService.ScheduleDefinition,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteSchedule(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteScheduleAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteScheduleAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetScheduleProperties(System.String,System.String,WebExtreme.Reporting.ReportService.ScheduleDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSchedulePropertiesAsync(System.String,System.String,WebExtreme.Reporting.ReportService.ScheduleDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSchedulePropertiesAsync(System.String,System.String,WebExtreme.Reporting.ReportService.ScheduleDefinition,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetScheduleProperties(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSchedulePropertiesAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSchedulePropertiesAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListScheduledReports(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListScheduledReportsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListScheduledReportsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSchedules">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSchedulesAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSchedulesAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.PauseSchedule(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.PauseScheduleAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.PauseScheduleAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ResumeSchedule(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ResumeScheduleAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ResumeScheduleAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateSubscription(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateSubscriptionAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateSubscriptionAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateDataDrivenSubscription(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,WebExtreme.Reporting.ReportService.DataRetrievalPlan,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateDataDrivenSubscriptionAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,WebExtreme.Reporting.ReportService.DataRetrievalPlan,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateDataDrivenSubscriptionAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,WebExtreme.Reporting.ReportService.DataRetrievalPlan,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSubscriptionProperties(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSubscriptionPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSubscriptionPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValue[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetDataDrivenSubscriptionProperties(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,WebExtreme.Reporting.ReportService.DataRetrievalPlan,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetDataDrivenSubscriptionPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,WebExtreme.Reporting.ReportService.DataRetrievalPlan,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetDataDrivenSubscriptionPropertiesAsync(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings,WebExtreme.Reporting.ReportService.DataRetrievalPlan,System.String,System.String,System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSubscriptionProperties(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings@,System.String@,WebExtreme.Reporting.ReportService.ActiveState@,System.String@,System.String@,System.String@,WebExtreme.Reporting.ReportService.ParameterValue[]@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSubscriptionPropertiesAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSubscriptionPropertiesAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetDataDrivenSubscriptionProperties(System.String,WebExtreme.Reporting.ReportService.ExtensionSettings@,WebExtreme.Reporting.ReportService.DataRetrievalPlan@,System.String@,WebExtreme.Reporting.ReportService.ActiveState@,System.String@,System.String@,System.String@,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[]@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetDataDrivenSubscriptionPropertiesAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetDataDrivenSubscriptionPropertiesAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteSubscription(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteSubscriptionAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteSubscriptionAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.PrepareQuery(WebExtreme.Reporting.ReportService.DataSource,WebExtreme.Reporting.ReportService.DataSetDefinition,System.Boolean@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.PrepareQueryAsync(WebExtreme.Reporting.ReportService.DataSource,WebExtreme.Reporting.ReportService.DataSetDefinition)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.PrepareQueryAsync(WebExtreme.Reporting.ReportService.DataSource,WebExtreme.Reporting.ReportService.DataSetDefinition,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetExtensionSettings(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetExtensionSettingsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetExtensionSettingsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ValidateExtensionSettings(System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ValidateExtensionSettingsAsync(System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ValidateExtensionSettingsAsync(System.String,WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptions(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptionsAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptionsAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptionsUsingDataSource(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptionsUsingDataSourceAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptionsUsingDataSourceAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListExtensions(WebExtreme.Reporting.ReportService.ExtensionTypeEnum)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListExtensionsAsync(WebExtreme.Reporting.ReportService.ExtensionTypeEnum)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListExtensionsAsync(WebExtreme.Reporting.ReportService.ExtensionTypeEnum,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListEvents">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListEventsAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListEventsAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FireEvent(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FireEventAsync(System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.FireEventAsync(System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSystemTasks">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSystemTasksAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSystemTasksAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListTasks">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListTasksAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListTasksAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSystemRoles">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSystemRolesAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListSystemRolesAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListRoles">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListRolesAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.ListRolesAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateRole(System.String,System.String,WebExtreme.Reporting.ReportService.Task[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateRoleAsync(System.String,System.String,WebExtreme.Reporting.ReportService.Task[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CreateRoleAsync(System.String,System.String,WebExtreme.Reporting.ReportService.Task[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteRole(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteRoleAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.DeleteRoleAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetRoleProperties(System.String,System.String@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetRolePropertiesAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetRolePropertiesAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetRoleProperties(System.String,System.String,WebExtreme.Reporting.ReportService.Task[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetRolePropertiesAsync(System.String,System.String,WebExtreme.Reporting.ReportService.Task[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetRolePropertiesAsync(System.String,System.String,WebExtreme.Reporting.ReportService.Task[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPolicies">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPoliciesAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPoliciesAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSystemPolicies(WebExtreme.Reporting.ReportService.Policy[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSystemPoliciesAsync(WebExtreme.Reporting.ReportService.Policy[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetSystemPoliciesAsync(WebExtreme.Reporting.ReportService.Policy[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPolicies(System.String,System.Boolean@)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPoliciesAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPoliciesAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetPolicies(System.String,WebExtreme.Reporting.ReportService.Policy[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetPoliciesAsync(System.String,WebExtreme.Reporting.ReportService.Policy[])">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.SetPoliciesAsync(System.String,WebExtreme.Reporting.ReportService.Policy[],System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.InheritParentSecurity(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.InheritParentSecurityAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.InheritParentSecurityAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPermissions">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPermissionsAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPermissionsAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPermissions(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPermissionsAsync(System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.GetPermissionsAsync(System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.LogonUser(System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.LogonUserAsync(System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.LogonUserAsync(System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.Logoff">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.LogoffAsync">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.LogoffAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WebExtreme.Reporting.ReportService.ReportingService.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListSecureMethodsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateBatchCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CancelBatchCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ExecuteBatchCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetSystemPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.DeleteItemCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.MoveItemCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListChildrenCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetItemTypeCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateFolderCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateReportCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetReportDefinitionCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetReportDefinitionCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateResourceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetResourceContentsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetResourceContentsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetReportParametersCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetReportParametersCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateLinkedReportCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetReportLinkCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetReportLinkCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListLinkedReportsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.RenderCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.RenderStreamCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetRenderResourceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetExecutionOptionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetExecutionOptionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetCacheOptionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetCacheOptionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.UpdateReportExecutionSnapshotCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.FlushCacheCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListJobsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CancelJobCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateDataSourceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetDataSourceContentsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetDataSourceContentsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.EnableDataSourceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.DisableDataSourceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListReportsUsingDataSourceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetReportDataSourcesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSourcesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetReportDataSourcePromptsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateReportHistorySnapshotCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryOptionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryOptionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetReportHistoryLimitCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetReportHistoryLimitCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListReportHistoryCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.DeleteReportHistorySnapshotCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.FindItemsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateScheduleCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.DeleteScheduleCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetSchedulePropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetSchedulePropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListScheduledReportsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListSchedulesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.PauseScheduleCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ResumeScheduleCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateSubscriptionCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateDataDrivenSubscriptionCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetSubscriptionPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetDataDrivenSubscriptionPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetSubscriptionPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetDataDrivenSubscriptionPropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.DeleteSubscriptionCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.PrepareQueryCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetExtensionSettingsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ValidateExtensionSettingsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListSubscriptionsUsingDataSourceCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListExtensionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListEventsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.FireEventCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListSystemTasksCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListTasksCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListSystemRolesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.ListRolesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.CreateRoleCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.DeleteRoleCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetRolePropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetRolePropertiesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPoliciesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetSystemPoliciesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetPoliciesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.SetPoliciesCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.InheritParentSecurityCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetSystemPermissionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.GetPermissionsCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.LogonUserCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WebExtreme.Reporting.ReportService.ReportingService.LogoffCompleted">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ServerInfoHeader">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ServerInfoHeader.ReportServerVersionNumber">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ServerInfoHeader.ReportServerEdition">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Policy">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Policy.GroupUserName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Policy.Roles">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Role">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Role.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Role.Description">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Task">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Task.TaskID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Task.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Task.Description">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Event">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Event.Type">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Extension">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Extension.ExtensionType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Extension.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Extension.LocalizedName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Extension.Visible">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ExtensionTypeEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ExtensionTypeEnum.Delivery">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ExtensionTypeEnum.Render">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ExtensionTypeEnum.Data">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ExtensionTypeEnum.All">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Subscription">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.SubscriptionID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.Owner">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.Path">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.VirtualPath">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.Report">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.DeliverySettings">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.Description">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.Status">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.Active">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.LastExecuted">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.LastExecutedSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.ModifiedBy">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.ModifiedDate">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.EventType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Subscription.IsDataDriven">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ExtensionSettings">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionSettings.Extension">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionSettings.ParameterValues">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ParameterFieldReference">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ParameterValueOrFieldReference">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ParameterFieldReference.ParameterName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ParameterFieldReference.FieldAlias">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ParameterValue">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ParameterValue.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ParameterValue.Value">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ParameterValue.Label">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ActiveState">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.DeliveryExtensionRemoved">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.DeliveryExtensionRemovedSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.SharedDataSourceRemoved">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.SharedDataSourceRemovedSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.MissingParameterValue">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.MissingParameterValueSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.InvalidParameterValue">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.InvalidParameterValueSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.UnknownReportParameter">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ActiveState.UnknownReportParameterSpecified">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ExtensionParameter">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.DisplayName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.Required">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.RequiredSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.ReadOnly">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.Value">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.Error">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.Encrypted">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.IsPassword">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ExtensionParameter.ValidValues">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ValidValue">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ValidValue.Label">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ValidValue.Value">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.QueryDefinition">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.QueryDefinition.CommandType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.QueryDefinition.CommandText">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.QueryDefinition.Timeout">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.QueryDefinition.TimeoutSpecified">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Field">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Field.Alias">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Field.Name">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataSetDefinition">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.Fields">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.Query">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.CaseSensitivity">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.CaseSensitivitySpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.Collation">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.AccentSensitivity">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.AccentSensitivitySpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.KanatypeSensitivity">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.KanatypeSensitivitySpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.WidthSensitivity">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.WidthSensitivitySpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSetDefinition.Name">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SensitivityEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.SensitivityEnum.True">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.SensitivityEnum.False">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.SensitivityEnum.Auto">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataRetrievalPlan">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataRetrievalPlan.Item">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataRetrievalPlan.DataSet">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataSourceDefinition">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataSourceDefinitionOrReference">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.Extension">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.ConnectString">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.CredentialRetrieval">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.WindowsCredentials">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.ImpersonateUser">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.ImpersonateUserSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.Prompt">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.UserName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.Password">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.Enabled">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceDefinition.EnabledSpecified">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CredentialRetrievalEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.CredentialRetrievalEnum.Prompt">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.CredentialRetrievalEnum.Store">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.CredentialRetrievalEnum.Integrated">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.CredentialRetrievalEnum.None">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataSourceReference">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceReference.Reference">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.InvalidDataSourceReference">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Schedule">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.ScheduleID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.Definition">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.Description">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.Creator">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.NextRunTime">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.NextRunTimeSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.LastRunTime">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.LastRunTimeSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.ReferencesPresent">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Schedule.State">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ScheduleDefinition">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ScheduleDefinitionOrReference">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ScheduleDefinition.StartDateTime">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ScheduleDefinition.EndDate">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ScheduleDefinition.EndDateSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ScheduleDefinition.Item">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DailyRecurrence">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.RecurrencePattern">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DailyRecurrence.DaysInterval">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.WeeklyRecurrence">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.WeeklyRecurrence.WeeksInterval">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.WeeklyRecurrence.WeeksIntervalSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.WeeklyRecurrence.DaysOfWeek">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DaysOfWeekSelector">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DaysOfWeekSelector.Sunday">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DaysOfWeekSelector.Monday">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DaysOfWeekSelector.Tuesday">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DaysOfWeekSelector.Wednesday">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DaysOfWeekSelector.Thursday">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DaysOfWeekSelector.Friday">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DaysOfWeekSelector.Saturday">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.MinuteRecurrence">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MinuteRecurrence.MinutesInterval">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.MonthlyRecurrence">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthlyRecurrence.Days">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthlyRecurrence.MonthsOfYear">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.MonthsOfYearSelector">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.January">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.February">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.March">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.April">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.May">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.June">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.July">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.August">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.September">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.October">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.November">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthsOfYearSelector.December">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.MonthlyDOWRecurrence">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthlyDOWRecurrence.WhichWeek">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthlyDOWRecurrence.WhichWeekSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthlyDOWRecurrence.DaysOfWeek">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.MonthlyDOWRecurrence.MonthsOfYear">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.WeekNumberEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.WeekNumberEnum.FirstWeek">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.WeekNumberEnum.SecondWeek">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.WeekNumberEnum.ThirdWeek">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.WeekNumberEnum.FourthWeek">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.WeekNumberEnum.LastWeek">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ScheduleReference">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ScheduleReference.ScheduleID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ScheduleReference.Definition">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.NoSchedule">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ScheduleStateEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ScheduleStateEnum.Ready">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ScheduleStateEnum.Running">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ScheduleStateEnum.Paused">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ScheduleStateEnum.Expired">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ScheduleStateEnum.Failing">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ReportHistorySnapshot">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportHistorySnapshot.HistoryID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportHistorySnapshot.CreationDate">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportHistorySnapshot.Size">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataSourcePrompt">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourcePrompt.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourcePrompt.DataSourceID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourcePrompt.Prompt">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataSource">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSource.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSource.Item">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Job">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.JobID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.Path">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.Description">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.Machine">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.User">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.StartDateTime">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.Action">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.Type">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Job.Status">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.JobActionEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobActionEnum.Render">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobActionEnum.SnapshotCreation">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobActionEnum.ReportHistoryCreation">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.JobTypeEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobTypeEnum.User">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobTypeEnum.System">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.JobStatusEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobStatusEnum.New">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobStatusEnum.Running">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.JobStatusEnum.CancelRequested">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ExpirationDefinition">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.TimeExpiration">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.TimeExpiration.Minutes">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ScheduleExpiration">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ScheduleExpiration.Item">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ReportParameter">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.Type">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.TypeSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.Nullable">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.NullableSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.AllowBlank">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.AllowBlankSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.MultiValue">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.MultiValueSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.QueryParameter">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.QueryParameterSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.Prompt">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.PromptUser">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.PromptUserSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.Dependencies">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.ValidValuesQueryBased">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.ValidValuesQueryBasedSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.ValidValues">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.DefaultValuesQueryBased">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.DefaultValuesQueryBasedSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.DefaultValues">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.State">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.StateSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ReportParameter.ErrorMessage">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ParameterTypeEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterTypeEnum.Boolean">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterTypeEnum.DateTime">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterTypeEnum.Integer">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterTypeEnum.Float">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterTypeEnum.String">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ParameterStateEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterStateEnum.HasValidValue">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterStateEnum.MissingValidValue">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterStateEnum.HasOutstandingDependencies">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ParameterStateEnum.DynamicValuesUnavailable">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DataSourceCredentials">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceCredentials.DataSourceName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceCredentials.UserName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.DataSourceCredentials.Password">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Warning">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Warning.Code">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Warning.Severity">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Warning.ObjectName">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Warning.ObjectType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Warning.Message">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CatalogItem">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.ID">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.Path">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.VirtualPath">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.Type">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.Size">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.SizeSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.Description">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.Hidden">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.HiddenSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.CreationDate">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.CreationDateSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.ModifiedDate">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.ModifiedDateSpecified">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.CreatedBy">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.ModifiedBy">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.MimeType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.ExecutionDate">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CatalogItem.ExecutionDateSpecified">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ItemTypeEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemTypeEnum.Unknown">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemTypeEnum.Folder">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemTypeEnum.Report">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemTypeEnum.Resource">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemTypeEnum.LinkedReport">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemTypeEnum.DataSource">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.Property">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Property.Name">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.Property.Value">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SearchCondition">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.SearchCondition.Condition">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.SearchCondition.ConditionSpecified">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ConditionEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ConditionEnum.Contains">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ConditionEnum.Equals">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SessionHeader">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.SessionHeader.SessionId">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.SessionHeader.IsNewExecution">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.SessionHeader.ExecutionDateTime">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.SessionHeader.ExpirationDateTime">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ItemNamespaceHeader">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ItemNamespaceHeader.ItemNamespace">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ItemNamespaceEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemNamespaceEnum.PathBased">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ItemNamespaceEnum.GUIDBased">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.BatchHeader">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.BatchHeader.BatchID">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ExecutionSettingEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ExecutionSettingEnum.Live">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.ExecutionSettingEnum.Snapshot">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.BooleanOperatorEnum">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.BooleanOperatorEnum.And">
+            <remarks/>
+        </member>
+        <member name="F:WebExtreme.Reporting.ReportService.BooleanOperatorEnum.Or">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSecureMethodsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSecureMethodsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListSecureMethodsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateBatchCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateBatchCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CreateBatchCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CancelBatchCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ExecuteBatchCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSystemPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSystemPropertiesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSystemPropertiesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetSystemPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DeleteItemCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.MoveItemCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListChildrenCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListChildrenCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListChildrenCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetPropertiesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetPropertiesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetItemTypeCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetItemTypeCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetItemTypeCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateFolderCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateReportCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateReportCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CreateReportCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportDefinitionCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportDefinitionCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportDefinitionCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetReportDefinitionCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetReportDefinitionCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.SetReportDefinitionCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateResourceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetResourceContentsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetResourceContentsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetResourceContentsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetResourceContentsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetResourceContentsCompletedEventArgs.MimeType">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportParametersCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportParametersCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportParametersCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetReportParametersCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateLinkedReportCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportLinkCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportLinkCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportLinkCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetReportLinkCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListLinkedReportsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListLinkedReportsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListLinkedReportsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.RenderCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.RenderCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderCompletedEventArgs.Encoding">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderCompletedEventArgs.MimeType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderCompletedEventArgs.ParametersUsed">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderCompletedEventArgs.Warnings">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderCompletedEventArgs.StreamIds">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.RenderStreamCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.RenderStreamCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderStreamCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderStreamCompletedEventArgs.Encoding">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.RenderStreamCompletedEventArgs.MimeType">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetRenderResourceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetRenderResourceCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetRenderResourceCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetRenderResourceCompletedEventArgs.MimeType">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetExecutionOptionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetExecutionOptionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetExecutionOptionsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetExecutionOptionsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetExecutionOptionsCompletedEventArgs.Item">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetCacheOptionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetCacheOptionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetCacheOptionsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetCacheOptionsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetCacheOptionsCompletedEventArgs.Item">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.UpdateReportExecutionSnapshotCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.FlushCacheCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListJobsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListJobsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListJobsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CancelJobCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CancelJobCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CancelJobCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateDataSourceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetDataSourceContentsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetDataSourceContentsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataSourceContentsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetDataSourceContentsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.EnableDataSourceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DisableDataSourceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListReportsUsingDataSourceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListReportsUsingDataSourceCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListReportsUsingDataSourceCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetReportDataSourcesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportDataSourcesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportDataSourcesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportDataSourcesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportDataSourcePromptsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportDataSourcePromptsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportDataSourcePromptsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateReportHistorySnapshotCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateReportHistorySnapshotCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CreateReportHistorySnapshotCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CreateReportHistorySnapshotCompletedEventArgs.Warnings">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetReportHistoryOptionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportHistoryOptionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportHistoryOptionsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportHistoryOptionsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportHistoryOptionsCompletedEventArgs.KeepExecutionSnapshots">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportHistoryOptionsCompletedEventArgs.Item">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetReportHistoryLimitCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportHistoryLimitCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetReportHistoryLimitCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportHistoryLimitCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportHistoryLimitCompletedEventArgs.IsSystem">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetReportHistoryLimitCompletedEventArgs.SystemLimit">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListReportHistoryCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListReportHistoryCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListReportHistoryCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DeleteReportHistorySnapshotCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.FindItemsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.FindItemsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.FindItemsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateScheduleCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateScheduleCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CreateScheduleCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DeleteScheduleCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetSchedulePropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSchedulePropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSchedulePropertiesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSchedulePropertiesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListScheduledReportsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListScheduledReportsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListScheduledReportsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSchedulesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSchedulesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListSchedulesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.PauseScheduleCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ResumeScheduleCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateSubscriptionCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateSubscriptionCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CreateSubscriptionCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateDataDrivenSubscriptionCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateDataDrivenSubscriptionCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.CreateDataDrivenSubscriptionCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetSubscriptionPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetDataDrivenSubscriptionPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.ExtensionSettings">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.Description">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.Active">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.Status">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.EventType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.MatchData">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSubscriptionPropertiesCompletedEventArgs.Parameters">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.ExtensionSettings">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.DataRetrievalPlan">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.Description">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.Active">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.Status">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.EventType">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.MatchData">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetDataDrivenSubscriptionPropertiesCompletedEventArgs.Parameters">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DeleteSubscriptionCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.PrepareQueryCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.PrepareQueryCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.PrepareQueryCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.PrepareQueryCompletedEventArgs.Changed">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetExtensionSettingsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetExtensionSettingsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetExtensionSettingsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ValidateExtensionSettingsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ValidateExtensionSettingsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ValidateExtensionSettingsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSubscriptionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSubscriptionsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListSubscriptionsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSubscriptionsUsingDataSourceCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSubscriptionsUsingDataSourceCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListSubscriptionsUsingDataSourceCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListExtensionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListExtensionsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListExtensionsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListEventsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListEventsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListEventsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.FireEventCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSystemTasksCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSystemTasksCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListSystemTasksCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListTasksCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListTasksCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListTasksCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSystemRolesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListSystemRolesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListSystemRolesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListRolesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.ListRolesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.ListRolesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.CreateRoleCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.DeleteRoleCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetRolePropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetRolePropertiesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetRolePropertiesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetRolePropertiesCompletedEventArgs.Description">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetRolePropertiesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSystemPoliciesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSystemPoliciesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSystemPoliciesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetSystemPoliciesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetPoliciesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetPoliciesCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetPoliciesCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetPoliciesCompletedEventArgs.InheritParent">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.SetPoliciesCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.InheritParentSecurityCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSystemPermissionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetSystemPermissionsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetSystemPermissionsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetPermissionsCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.GetPermissionsCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WebExtreme.Reporting.ReportService.GetPermissionsCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.LogonUserCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WebExtreme.Reporting.ReportService.LogoffCompletedEventHandler">
+            <remarks/>
+        </member>
+    </members>
+</doc>
