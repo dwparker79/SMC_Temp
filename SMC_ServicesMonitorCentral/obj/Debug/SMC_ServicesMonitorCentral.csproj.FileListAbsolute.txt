@@ -1,0 +1,47 @@
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Resources\tick.ico
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Resources\cross.ico
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Resources\pending.ico
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Resources\running.ico
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Resources\stopped.ico
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\EVENTVIEWER.BAT
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\GlassButton.dll
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Configuration.dll
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Logging.dll
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Reporting.dll
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Security.dll
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.UserManagement.dll
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Configuration.xml
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Logging.xml
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Reporting.xml
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Security.xml
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.UserManagement.xml
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.Properties.Resources.resources
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.Smc.resources
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.csproj.GenerateResource.Cache
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Greg was here.exe.config
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Greg was here.exe
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\bin\Debug\Greg was here.pdb
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\obj\Debug\Greg was here.exe
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\obj\Debug\Greg was here.pdb
+C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.csprojResolveAssemblyReference.cache
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Greg was here.exe.config
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\obj\Debug\Greg was here.exe
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\obj\Debug\Greg was here.pdb
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Resources\tick.ico
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Resources\cross.ico
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Resources\pending.ico
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Resources\running.ico
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Resources\stopped.ico
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\EVENTVIEWER.BAT
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Greg was here.exe
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\Greg was here.pdb
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Configuration.xml
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Logging.xml
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Reporting.xml
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.Security.xml
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\bin\Debug\WebExtreme.UserManagement.xml
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.csprojResolveAssemblyReference.cache
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.Properties.Resources.resources
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.Smc.resources
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.csproj.GenerateResource.Cache
+C:\Users\JETTS\Documents\Visual Studio 2015\Projects\ServicesHealthMonitor\ServicesHealthMonitor\SMC_ServicesMonitorCentral\obj\Debug\SMC_ServicesMonitorCentral.EventViewer.resources

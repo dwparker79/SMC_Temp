@@ -1,0 +1,489 @@
+
+==========================================================================================
+2016.8.3 | 13:42:34:682
+Message:
+	Cannot open ActivIdentity Shared Store Service service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 949
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:42:36:734
+Message:
+	Cannot open ActivIdentity Shared Store Service service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Stop()
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 955
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:42:54:195
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 949
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:42:58:504
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Stop()
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 955
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:43:5:645
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:43:6:982
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:9:270
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:9:734
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+	   at System.Collections.Generic.List`1.RemoveAt(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellDoubleClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1055
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:9:905
+Message:
+	Index was out of range. Must be non-negative and less than the size of the collection.
+	Parameter name: index
+
+Source:
+	mscorlib
+
+Stack trace:
+   at System.Collections.ArrayList.get_Item(Int32 index)
+	   at System.Windows.Forms.DataGridViewRowCollection.get_Item(Int32 index)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1039
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:25:865
+Message:
+	Cannot open ActivIdentity Shared Store Service service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Stop()
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView1_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 955
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:36:776
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:40:24
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:40:83
+Message:
+	Cannot open AdobeFlashPlayerUpdateSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:55:589
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:57:56
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:44:57:67
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:7:32
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:17:33
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:27:46
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:37:59
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:47:61
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:45:57:75
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:46:7:77
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:46:7:109
+Message:
+	Cannot open AppIDSvc service on computer 'AAPMDRD5PABIT01'.
+
+Source:
+	System.ServiceProcess
+
+Stack trace:
+   at System.ServiceProcess.ServiceController.GetServiceHandle(Int32 desiredAccess)
+	   at System.ServiceProcess.ServiceController.Start(String[] args)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid2() in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 302
+
+Inner exception:
+	Access is denied
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 13:46:37:108
+Message:
+	'WebExtreme.Logging.Logger' threw an exception: SendErrorHMTLMail(): The "SendUsing" configuration value is invalid.
+	
+
+Source:
+	WebExtreme.Logging
+
+Stack trace:
+   at WebExtreme.Logging.Logger.SendErrorHMTLMail(String method, Exception ex)
+	   at SMC_ServicesMonitorCentral.Smc.FillGrid3(KeyValuePair`2 sc) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 389
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 14:1:34:244
+Message:
+	The operation was canceled by the user
+
+Source:
+	System
+
+Stack trace:
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1040
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+
+
+==========================================================================================
+2016.8.3 | 14:1:34:259
+Message:
+	The operation was canceled by the user
+
+Source:
+	System
+
+Stack trace:
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+	   at SMC_ServicesMonitorCentral.Smc.dataGridView2_CellContentClick(Object sender, DataGridViewCellEventArgs e) in C:\Users\apgcearly\Documents\bbclark\ServicesMonitorCentral2\SMC_ServicesMonitorCentral\SMC_ServicesMonitorCentral\Smc.cs:line 1040
+
+Inner exception:
+	no InnerException object 
+==========================================================================================
+

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebExtreme.Configuration</name>
+    </assembly>
+    <members>
+        <member name="M:WebExtreme.Configuration.ConfigAdapter.SaveToAppConfig(System.String,System.String)">
+            <summary>
+            Modifies key/value pairs in app.config or web.config
+            </summary>
+            <param name="key">the key to look for</param>
+            <param name="newValue">the replacing value</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebExtreme.Configuration.ConfigAdapter.IniWriteValue(System.String,System.String,System.String,System.String)">
+            <summary>
+            Write Data to the INI File
+            </summary>
+            <PARAM name="Section"></PARAM>
+            Section name
+            <PARAM name="Key"></PARAM>
+            Key Name
+            <PARAM name="Value"></PARAM>
+            Value Name
+        </member>
+        <member name="M:WebExtreme.Configuration.ConfigAdapter.IniReadValue(System.String,System.String,System.String)">
+            <summary>
+            Read Data Value From the Ini File
+            </summary>
+            <PARAM name="Section"></PARAM>
+            <PARAM name="Key"></PARAM>
+            <PARAM name="Path"></PARAM>
+            <returns></returns>
+        </member>
+        <member name="M:WebExtreme.Configuration.ConfigAdapter.GetIniKeys(System.String,System.String)">
+            <summary>
+            Returns a List of all the keys in an INI file.
+            </summary>
+            <param name="pattern">Some pattern in the keys names to look for.</param>
+            <param name="path">The path to the INI file.</param>
+            <returns>List</returns>
+        </member>
+    </members>
+</doc>
